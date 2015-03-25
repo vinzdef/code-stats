@@ -1,3 +1,6 @@
+Collection of bash scripts to keep track of how many lines I write and 
+their language
+
 Computes how many lines of code are in my Workspace directory for each language, formatting the result in json under ./results/languages.json
 
 Also shows the following statistcs: (under ./results/stats.json)
