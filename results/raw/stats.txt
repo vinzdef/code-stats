@@ -1,0 +1,22 @@
+     100 files     200 files     300 files     400 files     500 files     600 files     700 files     800 files     900 files    1000 files    1100 files    1200 files    1262 text files.
+classified 1262 filesDuplicate file check 1262 files (931 known unique)Unique:      100 files                                          Unique:      200 files                                          Unique:      300 files                                          Unique:      400 files                                          Unique:      500 files                                          Unique:      600 files                                          Unique:      700 files                                          Unique:      800 files                                          Unique:      900 files                                              1179 unique files.                              
+Counting:  100Counting:  200Counting:  300Counting:  400Counting:  500Counting:  600Counting:  700Counting:  800Counting:  900Counting:  1000Counting:  1100     627 files ignored.
+
+http://cloc.sourceforge.net v 1.62  T=3.59 s (191.8 files/s, 9803.4 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Java                           255           2336            562           9333
+C++                            171           1555            231           5283
+CSS                             16            681            252           3264
+HTML                            54            453            126           1990
+C                               42            541            102           1933
+Javascript                      56            416            151           1488
+SASS                            12            321            156           1231
+PHP                             34            297             92            951
+C/C++ Header                    28            205             57            714
+Bourne Shell                    13             57             29            311
+Python                           8             24              0             82
+-------------------------------------------------------------------------------
+SUM:                           689           6886           1758          26580
+-------------------------------------------------------------------------------
