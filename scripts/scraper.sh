@@ -9,15 +9,15 @@ function parseLine {
         CCOUNT=$5
 
     elif [[ $1 == C/C++ ]]; then
-        echo "  \"C\": $(( $CCOUNT+$6 ))" >> ./results/languages.json.tmp
+        echo "  C: $(( $CCOUNT+$6 ))" >> ./results/languages.json.tmp
         TOTAL=`expr $TOTAL + $CCOUNT + $6`
 
     elif [[ $1 == Bourne ]]; then
-        echo "  \"Bash\": $6" >> ./results/languages.json.tmp
+        echo "  Bash: $6" >> ./results/languages.json.tmp
         TOTAL=`expr $TOTAL + $6`
 
     else 
-        echo "  \"$1\" : $5" >> ./results/languages.json.tmp
+        echo "  $1 : $5" >> ./results/languages.json.tmp
         TOTAL=`expr $TOTAL + $5`
     fi
     NUM_LANGUAGES=`expr $NUM_LANGUAGES + 1`
@@ -83,10 +83,10 @@ echo $NEW > ./results/raw/new.txt
 FILES=$(cat ./results/raw/stats.txt | grep -E 'SUM' | grep -Eo '[0-9]{0,}' | head -n 1) 
 
 echo '{' > ./results/stats.json
-echo "  \"Total\": $TOTAL," >>./results/stats.json
-echo "  \"Past\": $PAST," >>./results/stats.json
-echo "  \"Week\": $NEW," >>./results/stats.json
-echo "  \"Files\": $FILES">>./results/stats.json
+echo "  Total: $TOTAL," >>./results/stats.json
+echo "  Past: $PAST," >>./results/stats.json
+echo "  Week: $NEW," >>./results/stats.json
+echo "  Files: $FILES">>./results/stats.json
 echo '}' >>./results/stats.json
 
 cat ./results/languages.json
