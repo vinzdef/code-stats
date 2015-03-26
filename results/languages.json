@@ -1,12 +1,12 @@
 {
-Java : 9333,
-C++ : 5283,
-CSS : 3264,
-HTML : 2000,
-Javascript : 1502,
-SASS : 1231,
-PHP : 951,
-C: 2647,
-Bash: 311,
-Python : 82
+"Java" : 9333,
+"C++" : 5283,
+"CSS" : 3264,
+"HTML" : 2000,
+"Javascript" : 1502,
+"SASS" : 1231,
+"PHP" : 951,
+"C": 2647,
+"Bash": 311,
+"Python" : 82
 }

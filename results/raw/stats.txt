@@ -2,7 +2,7 @@
 classified 1262 filesDuplicate file check 1262 files (930 known unique)Unique:      100 files                                          Unique:      200 files                                          Unique:      300 files                                          Unique:      400 files                                          Unique:      500 files                                          Unique:      600 files                                          Unique:      700 files                                          Unique:      800 files                                          Unique:      900 files                                              1181 unique files.                              
 Counting:  100Counting:  200Counting:  300Counting:  400Counting:  500Counting:  600Counting:  700Counting:  800Counting:  900Counting:  1000Counting:  1100     627 files ignored.
 
-http://cloc.sourceforge.net v 1.62  T=4.38 s (157.4 files/s, 8051.2 lines/s)
+http://cloc.sourceforge.net v 1.62  T=2.84 s (242.9 files/s, 12431.9 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -11,12 +11,12 @@ C++                            171           1555            231           5283
 CSS                             16            681            252           3264
 HTML                            54            457            126           2000
 C                               42            541            102           1933
-Javascript                      56            416            152           1502
+Javascript                      56            417            158           1502
 SASS                            12            321            156           1231
 PHP                             34            297             92            951
 C/C++ Header                    28            205             57            714
 Bourne Shell                    13             57             29            311
 Python                           8             24              0             82
 -------------------------------------------------------------------------------
-SUM:                           689           6890           1759          26604
+SUM:                           689           6891           1765          26604
 -------------------------------------------------------------------------------
